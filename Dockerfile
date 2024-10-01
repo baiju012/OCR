@@ -16,7 +16,7 @@ RUN apt-get update && \
     apt-get clean
 
 # Copy the Tesseract config to the container (if any)
-COPY tessdata/ /usr/share/tesseract-ocr/4.00/tessdata/
+#COPY tessdata/ /usr/share/tesseract-ocr/4.00/tessdata/
 
 # Expose port 5000 to allow access to the app
 EXPOSE 5000
